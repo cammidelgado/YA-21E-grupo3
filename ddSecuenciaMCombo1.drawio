@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2024-04-23T00:19:39.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-w7GkMjaF0M92T95Ovel" version="24.2.5" type="google">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-2" value="1: imprimirTicket():void" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Boh8ph-WTrrNEsizd-jZ-3">
+          <mxGeometry x="0.1285" width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="110" as="sourcePoint" />
+            <mxPoint x="169.5" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="110" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-3" value="mc1:Chombo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-4" value="hamburguesa: ElementoCombo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-11" value="papa: ElementoCombo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="570" y="30" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-12" value="3: imprimirTicket():void" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="179.57999999999998" as="sourcePoint" />
+            <mxPoint x="644.5" y="179.57999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="179.57999999999998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-13" value="gaseosa: ElemtoCombo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="760" y="30" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-14" value="4:imprimirTicket():void" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="Boh8ph-WTrrNEsizd-jZ-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="220" as="sourcePoint" />
+            <mxPoint x="830" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Boh8ph-WTrrNEsizd-jZ-15" value="2: imprimirTicket():void" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Boh8ph-WTrrNEsizd-jZ-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>56</x><y>154</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Mapeador
+--
+
+--
++Mapeador()
++getDireccion(x, y):String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>154</y><w>260</w><h>120</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+BingMaps
+--
+
+--
++BingMaps()
++obtenerDireccion(decimal, decimal):String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>346</x><y>314</y><w>270</w><h>110</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+Adapter
+--
+
+--
++Adapter(GoogleMaps)
++obtenerDireccion(decimal, decimal):String
+-conversor(decimal):double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>716</x><y>314</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+GoogleMaps
+--
+
+--
++GoogleMaps()
++getAdress(double, double):String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>204</y><w>100</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+-maps
+m1=1</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>466</x><y>264</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>606</x><y>374</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+-googleMaps
+m1=1</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element></diagram>

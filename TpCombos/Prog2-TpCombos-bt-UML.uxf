@@ -1,0 +1,75 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>342</x><y>324</y><w>288</w><h>225</h></coordinates><panel_attributes>Combo
+--
+- nombre:String
+- nroDeCombo:int
+- precio:double
+--
++ Combo(String, IAlgoritmo)
++ getNombre():String
++ setNombre(String):void
++ getPrecio():double
++ setPrecio(double):void
++ add(Producto):void
++ remove(Producto):void
++ getProducto(int):Producto
++ setAlgoritmo(IAlgoritmo):void
++ getAlgoritmo():IAlgoritmo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>324</y><w>252</w><h>153</h></coordinates><panel_attributes>ProductoIndividual
+--
+- nombre:String
+- precio:double
+--
++ ProductoIndividual(string, double)
++ getNombre():String
++ setNombre(String):void
++ getPrecio():double
++ setPrecio(double):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>108</y><w>234</w><h>117</h></coordinates><panel_attributes>/Producto/
+--
+
+--
++ getNombre():String
++ setNombre(String):void
++ getPrecio():double
++ setPrecio(double):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>162</x><y>216</y><w>180</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>180;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>369</x><y>216</y><w>144</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;120</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>135</y><w>225</w><h>207</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+- listaProductos</panel_attributes><additional_attributes>140;210;140;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>36</x><y>99</y><w>90</w><h>63</h></coordinates><panel_attributes>Cliente
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>117</y><w>135</w><h>27</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>9</y><w>180</w><h>90</h></coordinates><panel_attributes>Ticket
+--
+
+--
++ agregarItem(Item):void
++ calcularTotal():double
++ imprimirTicket():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>711</x><y>180</y><w>198</w><h>108</h></coordinates><panel_attributes>Item
+--
+- cant:int
+--
++ Item(Producto, int)
++ getPrecioTotal():double
++ getCant():int
++ getProducto():Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>90</y><w>63</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n
+- items</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>189</y><w>270</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+- producto</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>909</x><y>306</y><w>135</w><h>81</h></coordinates><panel_attributes>AlgoritmoA
+--
+_- DESC=double:0.10_
+--
++ AlgoritmoA()
++ calculable():double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>909</x><y>396</y><w>144</w><h>81</h></coordinates><panel_attributes>AlgoritmoB
+--
+_- VALOR_FIJO=int:2500_
+--
++ AlgoritmoB()
++ calculable():double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>909</x><y>486</y><w>153</w><h>117</h></coordinates><panel_attributes>AlgoritmoC
+--
+_- DESC=double:0.30_
+_- INCREMENTO=double:0.20_
+- nroDia:int
+--
++ AlgoritmoC()
++ calculable():double
+- coincideNumero():boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>405</y><w>189</w><h>63</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+/IAlgoritmo/
+--
+/+ calculable():double/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>846</x><y>324</y><w>81</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;130;40;130;40;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>846</x><y>432</y><w>81</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>846</x><y>432</y><w>81</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;40;10;40;120;70;120</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>360</y><w>171</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+- algoritmo</panel_attributes><additional_attributes>170;50;170;20;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>648</x><y>504</y><w>135</w><h>63</h></coordinates><panel_attributes>Algoritmos realizados
+dentro de getPrecio()
+en clase Combo</panel_attributes><additional_attributes></additional_attributes></element></diagram>

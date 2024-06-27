@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-06-27T18:57:04.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="cJI8NSZA7LD8kW5zOkDz" version="24.4.0" type="google">
+  <diagram name="Página-1" id="6meA3uwZ7IQKkYf2SrBv">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-1" value="doc:Doctor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u-pfn7kRAO6pg7QGBHL6-1">
+          <mxGeometry x="60" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-2" value="2:ponerCollar(ICollar)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="130" as="sourcePoint" />
+            <mxPoint x="292" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-3" value="masc:Mascota" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="145" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};direction=west;" vertex="1" parent="u-pfn7kRAO6pg7QGBHL6-3">
+          <mxGeometry x="67.5" y="90" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-5" value="collarAdap:CollarAdapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u-pfn7kRAO6pg7QGBHL6-5">
+          <mxGeometry x="65" y="140" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-10" value="3:colocarCollar()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0013" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <mxPoint x="489.5" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-12" value="antipulg:AntiPulg" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="u-pfn7kRAO6pg7QGBHL6-12">
+          <mxGeometry x="55" y="160" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-17" value="5:colocarAntipulg()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="u-pfn7kRAO6pg7QGBHL6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="190" />
+              <mxPoint x="90" y="220" />
+            </Array>
+            <mxPoint x="65" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-15" value="4:colocarEspecifico()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="495" y="200" as="sourcePoint" />
+            <mxPoint x="659.5" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-18" value="1:darCollar():ICollar" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-50" y="110" as="sourcePoint" />
+            <mxPoint x="80" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-pfn7kRAO6pg7QGBHL6-23" value="Diagrama de secuencia del patrón Adapter, donde el doctor le pone el collar a una mascota, en este caso el tipo de collar es AntiPulg." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-20" width="360" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

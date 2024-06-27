@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2024-06-27T00:46:25.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bInKZY_kHgrgOflM-wQ5" version="24.6.3" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2140" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-1" value="doctor:Doctor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-550" y="60" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GjvZ3GmtHojlhV9Sj6Z_-1">
+          <mxGeometry x="45" y="60" width="10" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-2" value="crit1:Operacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-390" y="60" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GjvZ3GmtHojlhV9Sj6Z_-2">
+          <mxGeometry x="45" y="70" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-5" value="setCriterio(ICriterio)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-495" y="145" as="sourcePoint" />
+            <mxPoint x="-345" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-6" value="atenderMascota(Mascota)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-495" y="179" as="sourcePoint" />
+            <mxPoint x="-345" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-9" value="crit2:Masaje" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-240" y="60" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GjvZ3GmtHojlhV9Sj6Z_-9">
+          <mxGeometry x="45" y="217" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-11" value="setCriterio(ICriterio)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-495" y="292" as="sourcePoint" />
+            <mxPoint x="-195" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-12" value="atenderMascota(Mascota)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-495" y="321" as="sourcePoint" />
+            <mxPoint x="-195" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-14" value="gato:Gato" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-80" y="60" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GjvZ3GmtHojlhV9Sj6Z_-14">
+          <mxGeometry x="45" y="130" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-18" value="aplicarCriterio()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="GjvZ3GmtHojlhV9Sj6Z_-15" parent="GjvZ3GmtHojlhV9Sj6Z_-14" source="GjvZ3GmtHojlhV9Sj6Z_-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="170" />
+              <mxPoint x="80" y="200" />
+            </Array>
+            <mxPoint x="65" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-16" value="atender(Mascota)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-335" y="203" as="sourcePoint" />
+            <mxPoint x="-35" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-19" value="atender(Mascota)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-185" y="347" as="sourcePoint" />
+            <mxPoint x="-35" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-20" value="aplicarCriterio()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint y="360" />
+              <mxPoint y="390" />
+            </Array>
+            <mxPoint x="-25" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjvZ3GmtHojlhV9Sj6Z_-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Diagrama de secuencia de distintos criterios a la hora de atender a una mascota&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="10" width="560" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
